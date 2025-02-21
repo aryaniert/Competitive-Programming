@@ -17,7 +17,7 @@ if "%commit_message%"=="" (
 
 :: Git Operations
 git add .
-git commit -m "%commit_message%"
+git commit -m "add %commit_message% solution"
 git push origin master
 
 echo [SUCCESS] Code committed and pushed successfully!
